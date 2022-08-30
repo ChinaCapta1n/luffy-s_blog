@@ -1,0 +1,50 @@
+:root {
+    --primary-color: #ff9854;
+    --article-title: #4A4A4A;
+    --article-info: #888;
+    --article-description: #3a4145;
+    --article-readmore: #666;
+
+    --spinning-color: rgba(255, 165, 0, 1);
+    
+    --max-width: 1920px;
+    
+    --huge-breakpoint: 1600px;
+    --large-breakpoint: 1200px;
+    --mid-breakpoint: 1200px;
+    --ipad-breakpint: 1180px;
+    --mobile-breakpint: 767px;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+.wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-left: 0 !important;
+    margin-right: auto;
+}
+.logo > a {
+    font-size: 2rem;
+}
+
+#app {
+    font-size: 1.4rem;
+}
+
+.mt44 {
+    margin-top: 44px;
+}
+
+.pt100 {
+    padding-top: 100px !important;
+}
+
+.pd012rem {
+    padding: 0 2rem;
+}

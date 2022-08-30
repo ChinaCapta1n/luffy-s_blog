@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "text": "Luffy",
+        "path": " ",
+        "isLogo": true
+    },
+    {
+        "id": 1,
+        "text": "主页",
+        "path": "/home",
+        "isLogo": false
+    },
+    {
+        "id": 2,
+        "text": "归档",
+        "path": "/files",
+        "isLogo": false
+    },
+    {
+        "id": 3,
+        "text": "标签",
+        "path": "/tags",
+        "isLogo": false
+    },
+    {
+        "id": 4,
+        "text": "留言",
+        "path": "/message",
+        "isLogo": false
+    },
+    {
+        "id": 5,
+        "text": "作品",
+        "path": "/portfolio",
+        "isLogo": false
+    }
+]
