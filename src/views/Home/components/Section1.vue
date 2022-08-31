@@ -38,6 +38,23 @@ export default {
   &-h2 {
     font-size: 4rem;
     margin-bottom: 1.2rem;
+    text-shadow: 0 0 1px #fff;
+    // animation: h2shadow .3s infinite;
+  }
+}
+
+@keyframes h2shadow {
+  0% {
+    text-shadow: -2px -2px 10px blue,
+                 2px 2px 10px purple,
+                 -2px -2px 10px yellow,
+                 2px 2px 10px orange;
+  }
+  100% {
+    text-shadow: 2px 2px 10px blue,
+                 -2px -2px 10px purple,
+                 2px 2px 10px yellow,
+                 -2px -2px 10px orange;
   }
 }
 </style>

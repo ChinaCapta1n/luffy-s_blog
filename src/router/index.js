@@ -31,11 +31,14 @@ const router = createRouter({
             component: () => import('@/views/Portfolio/index.vue')
         },
         {
+            path: '/article',
+            component: () => import('@/views/Articles/index.vue')
+        },
+        {
             path: '/:pathMatch(.*)*',
             component: NotFound
         }
     ]
 })
-
 
 export default router;

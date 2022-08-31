@@ -4,6 +4,7 @@
     --article-info: #888;
     --article-description: #3a4145;
     --article-readmore: #666;
+    --description-color: #f3f3f3;
 
     --spinning-color: rgba(255, 165, 0, 1);
     
@@ -12,8 +13,8 @@
     --huge-breakpoint: 1600px;
     --large-breakpoint: 1200px;
     --mid-breakpoint: 1200px;
-    --ipad-breakpint: 1180px;
-    --mobile-breakpint: 767px;
+    --ipad-breakpoint: 1180px;
+    --mobile-breakpoint: 767px;
 }
 
 body {
@@ -47,4 +48,8 @@ body {
 
 .pd012rem {
     padding: 0 2rem;
+}
+
+.dp {
+    display: block;
 }

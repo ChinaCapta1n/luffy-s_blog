@@ -1,5 +1,7 @@
 <template>
-  <section class="section-2"></section>
+  <section class="section-2 wrap">
+    <router-link to="/article">进入详情页</router-link>
+  </section>
 </template>
 
 <script>
