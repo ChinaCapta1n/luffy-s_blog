@@ -1,6 +1,7 @@
 .article {
     letter-spacing: .08rem;
     article {
+        position: relative;
         line-height: 2;
         padding: 5rem 3rem;
         margin-top: 5rem;
@@ -8,9 +9,26 @@
         border-bottom: 1px dotted rgba(23, 232, 0, .4);
         border-left: 1px dotted rgba(56, 12, 255, .4);
         border-right: 1px dotted rgba(244, 23, 60, 0.4);
+        // &::before {
+        //     content: "";
+        //     position: absolute;
+        //     top: -2rem;
+        //     left: -2rem;
+        //     background-image: url('/public/images/coconut.png');
+        //     background-repeat: no-repeat;
+        //     background-size: cover;
+        //     width: 100px;
+        //     height: 100px;
+        // }
         .article-title {
             text-align: center;
             margin-bottom: 5rem;
+            text-shadow: 0 3px 6px rgba(0, 0, 0, .3);
+            font-weight: 100;
+            color: #606975;
+        }
+        .article-content {
+            color: var(--article-color);
         }
         .article-details {
 
@@ -41,26 +59,17 @@
                 left: 3rem;
             }
         }
-    }
-    .article-aside {
-        position: fixed;
-        top: 50vh;
-        right: 10vw;
-        margin-top: 5rem;
-        border: 1px solid red;
-        a {
-            display: block;
-        }
-        .a-to-hash {
-            margin-left: 1rem;
-            & > li a {
-                margin-left: 1rem;
-                margin-bottom: 1rem;
+        aside {
+            padding: 2rem 1rem;
+            position: absolute;
+            top: 20vh;
+            right: -15rem;
+            z-index: 998;
+            background-color: #fff;
+            border-radius: .04rem;
+            @media screen and (max-width: 1100px) {
+                display: none;
             }
-            & > li > ul > li {
-                margin-bottom: 1rem;
-                margin-left: 1.5rem;
-            } 
         }
     }
 }

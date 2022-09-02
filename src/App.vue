@@ -15,6 +15,9 @@ import NavigationData from '@/mock/_navigation.json';
 import useFlags from '@/stores/modules/flags.js';
 import { storeToRefs } from 'pinia';
 
+import a from '@/hooks/useScrollPosition.js';
+console.log(a.setup())
+
 export default {
   components: {
     Navigation,

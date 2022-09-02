@@ -23,6 +23,8 @@ export default {
     line-height: 1.5;
     text-align: center;
     font-size: 1.5rem;
+    background-color: #fff;
+    z-index: 666;
     p {
       margin-bottom: 12px;
     }

@@ -1,10 +1,12 @@
 :root {
+    --body-color: #f4f5f5;
     --primary-color: #ff9854;
     --article-title: #4A4A4A;
     --article-info: #888;
     --article-description: #3a4145;
     --article-readmore: #666;
     --description-color: #f3f3f3;
+    --article-color: #333;
 
     --spinning-color: rgba(255, 165, 0, 1);
     
@@ -13,7 +15,7 @@
     --huge-breakpoint: 1600px;
     --large-breakpoint: 1200px;
     --mid-breakpoint: 1200px;
-    --ipad-breakpoint: 1180px;
+    --ipad-breakpoint: 1100px;
     --mobile-breakpoint: 767px;
 }
 
@@ -22,7 +24,7 @@ body {
 }
 
 .wrap {
-    max-width: 1100px;
+    max-width: var(--ipad-breakpoint);
     margin: 0 auto;
 }
 
@@ -31,7 +33,10 @@ body {
     margin-right: auto;
 }
 .logo > a {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke:1px rgb(72, 184, 49);
+    text-shadow: 3px 0px 0px rgb(22, 107, 4);
 }
 
 #app {
